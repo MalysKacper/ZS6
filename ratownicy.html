@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl3.css"/>
+    <title>Zespoły ratownicze</title>
+</head>
+<body>
+    <div id="g1" class="c1"><h2>Dodanie zespołu ratowniczego</h2></div>
+    <div id="g2" class="c1"><p>Kontakt:<br> 022 222 11 333</p></div>
+    <div id="g3" class="c1"><img src="obraz.jpg" alt="Ratownicy"/></div>
+
+
+
+    <div id="main">
+        <h3>Dodaj nowy zespół</h3>
+
+        <form action="dodanie.php" method="post">
+            Numer karetki:<br><input type="number" name="nrKaretki"/><br>
+            Imię i nazwisko pierwszego ratownika: <br><input type="text" name="r1"/><br>
+            Imię i nazwisko drugiego ratownika: <br><input type="text" name="r2"/><br>
+            Imię i nazwisko trzeciego ratownika: <br><input type="text" name="r3"/><br>
+            <input type="submit" value="CZYŚĆ" name="clearPage" href="ratownicy.html"/><br>
+            <input type="submit" value="DODAJ" name="sub"/><br>
+
+        </form>
+    
+    
+    </div>
+
+
+
+    <div id="d1" class="c1"><a href="kwerendy.txt" id="link">Zobacz kwerendy</a></div>
+    <div id="d2" class="c1">
+        <h5>Przypominamy numery alarmowe</h5>
+        <ol id="list">
+            <li>112</li>
+            <li>999</li>
+        </ol>
+    </div>
+    <div id="d3" class="c1">
+
+        <p>Autor<br>Kacper Małys</p>
+
+    </div>
+
+
+</body>
+</html>
